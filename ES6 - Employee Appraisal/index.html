@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        #submit {
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Employee Appraisal Form</h3>
+    <form onsubmit="return display()">
+        <table>
+            <tr>
+                <td>Empolyee Id</td>
+                <td><input type="text" name="employeeId" id="employeeId" required /></td>
+            </tr>
+            <tr>
+                <td>Empolyee Name</td>
+                <td><input type="text" name="employeeName" id="employeeName" required /></td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td><input type="number" name="salary" id="salary" required /></td>
+            </tr>
+            <tr>
+                <td>Years Of Experience</td>
+                <td><input type="number" name="experience" id="experience" required /></td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" id="submit" value="Submit" />
+        <div id="result"></div>
+    </form>
+</body>
+
+</html>

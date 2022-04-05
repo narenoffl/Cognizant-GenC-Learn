@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            h2{
+                color:white;
+            }
+            #main{
+                margin-left: auto;
+    			margin-right: auto;
+    			text-align: left;
+    			border: solid 2px black;
+    			border-spacing: 3px;
+    			border-radius: 6px; 
+    			width: 35%;			   
+    			padding: 3px;
+    			/color: #009900;/
+    			background-color:  #f2f2f2 ; 
+            }
+            body{
+                text-align: center;
+                background-color: #848484;
+            }
+            #submit{
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+                padding: 5px;
+            }  
+            div{
+                margin-top:1%;
+                margin-left: auto;
+    			margin-right: auto;
+    			text-align: left;
+                background-color: #138D75;
+                color:white;
+    			width: 35%;			   
+    			/padding: 3px;/
+                width: 35%;	
+            }
+            #searchDiv{
+                display:none;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form>
+            <h2>Weather -Report</h2>
+            <table id="main">
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" id="city"></td>
+                </tr>
+                <tr>
+                    <td>Temperature</td>
+                    <td><input type="text" id="temperature"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" id="submit" onclick="weatherReport(); return false;">Submit</button></td>
+                    <td><button type="submit" id="search" onclick="enableSearch(); return false;">Search</button></td>
+                </tr>
+            </table>
+            <div id="searchDiv">
+                <table>
+                    <tr><td>City</td></tr>
+                    <tr><td><input type="text" id="searchInput"></td></tr>
+                    <tr><td><button id="find" type="submit" value="search" onclick="searchReport(); return false;">Get Temperature</button></td></tr>
+                </table>
+            </div>
+            <div id="result1"></div>
+            <div id="result2"></div>
+        </form>
+    </body>
+</html>
