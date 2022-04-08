@@ -1,0 +1,23 @@
+{
+   "Country":"United States",
+   "State":"Boston",
+   "YearOfSurvey":2015,
+   "TotalPopulation":46700,
+   "AgeGroup":{
+      "0-14":[
+         {"female":50,"male":60}
+      ],
+      "15-24":[
+         {"female":50,"male":60}
+      ],
+      "25-44":[
+          {"female":50,"male":60}
+      ],
+      "45-64":[
+          {"female":50,"male":60}
+      ],
+      "Above65":[
+          {"female":50,"male":60}
+      ]
+   }
+}

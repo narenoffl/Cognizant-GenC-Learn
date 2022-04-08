@@ -1,0 +1,11 @@
+{
+   "Scheme":"XYZ",
+   "MinistryDetails":{
+      "Ministry":"Health",
+      "MinisterName":"Jack",
+      "HeadOfMinister":"XYZ"
+   },
+   "LaunchedYear":2012,
+   "Country":"India",
+   "BudgetInCrores":525000
+}
